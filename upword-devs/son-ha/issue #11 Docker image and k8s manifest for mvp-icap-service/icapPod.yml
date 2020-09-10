@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: icapserver
+spec:
+  containers:
+  - name: icapserver
+    image: icapserver
+    imagePullPolicy: Never
+    envFrom:
+      - configMapRef:
+         name: icapconfig

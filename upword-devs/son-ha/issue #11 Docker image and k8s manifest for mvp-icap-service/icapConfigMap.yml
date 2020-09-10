@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: icapconfig
+data:
+  TransactionOutcomeQueueName: local-transaction-outcome
+  TransactionOutcomeQueueConnectionString: AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlm
+  FileProcessingStorageConnectionString: AccountName=devstoreaccount1;AccountKey=Eby8vdM02xNOcqFlqUwJPLlm
+  FileProcessingStorageOriginalStoreName: local-original
