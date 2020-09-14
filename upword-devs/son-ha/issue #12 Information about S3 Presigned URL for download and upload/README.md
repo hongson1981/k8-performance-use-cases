@@ -12,11 +12,11 @@
 	 S3 bucket region
 ## Usage
 
-###Create session to connect to AWS S3
+### Create session to connect to AWS S3
 	
 	session = Session(aws_access_key_id=ACCESS_KEY,aws_secret_access_key=SECRET_KEY)
 	
-###Create S3 client based on session
+### Create S3 client based on session
 	
 	s3_client=session.client('s3')
 
